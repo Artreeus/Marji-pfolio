@@ -19,17 +19,17 @@ const Offers = () => {
           />
           <OfferCard
             title="WEB DESIGN"
-            subTitle="Branding is visually stunning designs that will leave you speechless"
+            subTitle="Web design is visually stunning designs that will leave you speechless"
             Icon={SiAntdesign}
           />
           <OfferCard
             title="Marketing"
-            subTitle="Branding is visually stunning designs that will leave you speechless"
+            subTitle="Marketing is promoting your products that will leave you speechless"
             Icon={FaChartPie}
           />
           <OfferCard
             title="Development"
-            subTitle="Branding is visually stunning designs that will leave you speechless"
+            subTitle="Devlopment is developing anything that will work for you."
             Icon={FaConnectdevelop}
           />
         </div>

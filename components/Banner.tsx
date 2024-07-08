@@ -45,7 +45,7 @@ const Banner = () => {
           className="w-full px-16 py-6 flex justify-between fixed top-0 z-40 bg-black bg-opacity-25"
         >
           <h1 className="font-bodyFont text-4xl text-white font-extrabold border-2 w-12 text-center">
-            S
+            Marji
           </h1>
           <div
             onClick={() => setMenu(true)}
@@ -60,7 +60,7 @@ const Banner = () => {
           <h1 className="text-[50px] md:text-[80px] lg:text-[100px] font-black">
             I'm Mehejerin Marji 
           </h1>
-          <div className="flex items-center gap-2 md:gap-6 text-base md:text-xl font-bold bg-designColor px-6 py-3">
+          <div className="flex items-center gap-2 md:gap-6 text-base md:text-xl font-bold bg-designColor lg:px-6 lg:py-3 px-3 py-2">
             <h2 className="tracking-[4px]">Student</h2>
             <HiMinus className="text-2xl rotate-90" />
             <h2 className="tracking-[4px]">Designer</h2>
