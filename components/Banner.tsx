@@ -152,7 +152,7 @@ const Banner = () => {
                 <p>
                   or say 'Hello' -{" "}
                   <span className="font-semibold text-designColor">
-                    reactjsbd@gmail.com
+                  Mehejerinmarji@gmail.com
                   </span>
                 </p>
               </div>
