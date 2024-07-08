@@ -20,7 +20,7 @@ const Design = () => {
     []
   );
   return (
-    <div className="w-full lg:h-[700px] bg-hero-image bg-cover bg-center bg-no-repeat">
+    <div className="w-full  h-[700px] bg-hero-image bg-cover bg-center bg-no-repeat">
       <Particles
         className="w-full h-full"
         id="tsparticles"
