@@ -60,7 +60,7 @@ const Banner = () => {
           <h1 className="text-[50px] md:text-[80px] lg:text-[100px] font-black">
             I'm Mehejerin Marji 
           </h1>
-          <div className="flex items-center gap-2 md:gap-6 text-base md:text-xl font-bold bg-designColor lg:px-6 lg:py-3 px-3 py-2">
+          <div className="flex items-center gap-2 md:gap-6 text-base md:text-xl font-bold bg-designColor lg:px-6 lg:py-3">
             <h2 className="tracking-[4px]">Student</h2>
             <HiMinus className="text-2xl rotate-90" />
             <h2 className="tracking-[4px]">Designer</h2>
