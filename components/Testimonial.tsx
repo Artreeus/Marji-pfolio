@@ -10,10 +10,10 @@ const Testimonial = () => {
     slidesToShow: 1,
     slidesToScroll: 1,
     arrows: false,
-    beforeChange: (prev: number, next: number) => { // Explicitly specify the types for prev and next
+    beforeChange: (prev: number, next: number) => {
       setDotActive(next);
     },
-    appendDots: dots => (
+    appendDots: (dots: React.ReactNode[]) => ( // Specify dots as React.ReactNode[]
       <div
         style={{
           position: 'absolute',
