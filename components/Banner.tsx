@@ -42,7 +42,7 @@ const Banner = () => {
             height: navSize,
             transition: "all 1s",
           }}
-          className="w-full px-16 py-6 flex justify-between fixed top-0 z-40 bg-black bg-opacity-25"
+          className="w-full px-16 py-6 flex justify-between items-center fixed top-0 z-40 bg-black bg-opacity-25"
         >
           <h1 className="font-bodyFont text-4xl text-white font-extrabold border-2 w-12 text-center">
             Marji
