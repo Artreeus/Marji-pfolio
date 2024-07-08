@@ -33,7 +33,7 @@ const Banner = () => {
 
   const [menu, setMenu] = useState(false);
   return (
-    <div id="home" className="w-full h-[700px] relative">
+    <div id="home" className="w-full h-[700px] relative bg-cover bg-center bg-no-repeat">
       <Design />
       <div className="absolute left-0 top-0 w-full h-[700px] bg-black bg-opacity-10">
         <nav
