@@ -58,14 +58,14 @@ const Banner = () => {
         </nav>
         <div className="w-full h-full flex flex-col justify-center items-center text-white px-4">
           <h1 className="text-[50px] md:text-[80px] lg:text-[100px] font-black">
-            I'm Sarah Jonson
+            I'm Mehejerin Marji 
           </h1>
           <div className="flex items-center gap-2 md:gap-6 text-base md:text-xl font-bold bg-designColor px-6 py-3">
-            <h2 className="tracking-[4px]">LEADER</h2>
+            <h2 className="tracking-[4px]">Student</h2>
             <HiMinus className="text-2xl rotate-90" />
-            <h2 className="tracking-[4px]">DESIGNER</h2>
+            <h2 className="tracking-[4px]">Designer</h2>
             <HiMinus className="text-2xl rotate-90" />
-            <h2 className="tracking-[4px]">YOUTUBER</h2>
+            <h2 className="tracking-[4px]"> Engineer</h2>
           </div>
         </div>
       </div>
