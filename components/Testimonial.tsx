@@ -10,7 +10,7 @@ const Testimonial = () => {
     slidesToShow: 1,
     slidesToScroll: 1,
     arrows: false,
-    beforeChange: (prev, next) => {
+    beforeChange: (prev: number, next: number) => { // Explicitly specify the types for prev and next
       setDotActive(next);
     },
     appendDots: dots => (
