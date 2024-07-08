@@ -33,7 +33,10 @@ const Banner = () => {
 
   const [menu, setMenu] = useState(false);
   return (
-    <div id="home" className="w-full h-[700px] relative bg-cover bg-center bg-no-repeat">
+    <div
+      id="home"
+      className="w-full h-[700px] relative bg-cover bg-center bg-no-repeat"
+    >
       <Design />
       <div className="absolute left-0 top-0 w-full h-[700px] bg-black bg-opacity-10">
         <nav
@@ -58,7 +61,7 @@ const Banner = () => {
         </nav>
         <div className="w-full h-full flex flex-col justify-center items-center text-white px-4">
           <h1 className="text-[50px] md:text-[80px] lg:text-[100px] font-black">
-            I'm Mehejerin Marji 
+            I'm Mehejerin Marji
           </h1>
           <div className="flex items-center gap-2 md:gap-6 text-base md:text-xl font-bold bg-designColor lg:px-6 lg:py-3">
             <h2 className="tracking-[4px]">Student</h2>
@@ -152,7 +155,7 @@ const Banner = () => {
                 <p>
                   or say 'Hello' -{" "}
                   <span className="font-semibold text-designColor">
-                  Mehejerinmarji@gmail.com
+                    mehejerinmarji@gmail.com
                   </span>
                 </p>
               </div>

@@ -43,15 +43,21 @@ const Contact = () => {
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="flex flex-col items-center gap-3">
               <FaMap className="text-4xl text-designColor" />
-              <p className="text-sm md:text-base tracking-wide">Dhaka- Bangladesh</p>
+              <p className="text-sm md:text-base tracking-wide">
+                Dhaka- Bangladesh
+              </p>
             </div>
             <div className="flex flex-col items-center gap-3">
               <FaPhoneAlt className="text-4xl text-designColor" />
-              <p className="text-sm md:text-base tracking-wide">+8801315925610</p>
+              <p className="text-sm md:text-base tracking-wide">
+                +8801315925610
+              </p>
             </div>
             <div className="flex flex-col items-center gap-3">
               <FaEnvelope className="text-4xl text-designColor" />
-              <p className="text-sm md:text-base tracking-wide">Mehejerinmarji@gmail.com</p>
+              <p className="text-sm md:text-base tracking-wide">
+                mehejerinmarji@gmail.com
+              </p>
             </div>
           </div>
 
@@ -105,10 +111,12 @@ const Contact = () => {
             <div className="text-base md:text-lg font-thin">
               <p>For project inquiries or to say 'Hello', email us at:</p>
               <p>
-                <span className="font-semibold text-designColor">Mehejerinmarji@gmail.com</span>
+                <span className="font-semibold text-designColor">
+                  mehejerinmarji@gmail.com
+                </span>
               </p>
             </div>
-            <a href="https://reactbd.com/" target="_blank" rel="noopener noreferrer">
+            <a href="/" target="_blank" rel="noopener noreferrer">
               <p>© 2024 Mehejerin Marji . All rights reserved.</p>
             </a>
           </div>
