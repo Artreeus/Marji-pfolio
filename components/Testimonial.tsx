@@ -13,7 +13,7 @@ const Testimonial = () => {
     beforeChange: (prev: number, next: number) => {
       setDotActive(next);
     },
-    appendDots: (dots: React.ReactNode[]) => ( // Specify dots as React.ReactNode[]
+    appendDots: (dots: React.ReactNode[]) => (
       <div
         style={{
           position: 'absolute',
@@ -27,7 +27,7 @@ const Testimonial = () => {
             width: '100%',
             display: 'flex',
             alignItems: 'center',
-            justifyContent: 'center', // Adjusted for centering dots horizontally
+            justifyContent: 'center',
             gap: '10px',
           }}
         >
@@ -35,7 +35,7 @@ const Testimonial = () => {
         </ul>
       </div>
     ),
-    customPaging: i => (
+    customPaging: (i: number) => ( // Explicitly specify the type of i as number
       <div
         style={{
           width: '12px',
@@ -43,7 +43,7 @@ const Testimonial = () => {
           borderRadius: '50%',
           cursor: 'pointer',
           border: `1px solid ${i === dotActive ? '#F7D449' : '#aeaeae'}`,
-          backgroundColor: i === dotActive ? '#F7D449' : 'transparent', // Added background color for active dot
+          backgroundColor: i === dotActive ? '#F7D449' : 'transparent',
         }}
       ></div>
     ),
@@ -70,19 +70,19 @@ const Testimonial = () => {
       id="testimonial"
       className="text-white bg-[#0F1113] py-20 flex justify-center items-center"
     >
-      <div className="w-full px-4 md:max-w-4xl"> {/* Responsive width */}
+      <div className="w-full px-4 md:max-w-4xl">
         <Slider {...settings}>
-          <div className="px-2"> {/* Adjust spacing inside slider */}
+          <div className="px-2">
             <p className="text-xl text-textColor text-center leading-8">
               <span className="text-white">Apple company CEO -</span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid doloribus sed asperiores commodi earum consectetur dolorem, eligendi animi minus. Reprehenderit laboriosam ipsa quia dignissimos voluptatum aliquid et repudiandae laborum impedit perferendis quis, sapiente doloribus eaque maxime nemo facere? At, facilis!
             </p>
           </div>
-          <div className="px-2"> {/* Adjust spacing inside slider */}
+          <div className="px-2">
             <p className="text-xl text-textColor text-center leading-8">
               <span className="text-white">Google company CTO -</span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid doloribus sed asperiores commodi earum consectetur dolorem, eligendi animi minus. Reprehenderit laboriosam ipsa quia dignissimos voluptatum aliquid et repudiandae laborum impedit perferendis quis, sapiente doloribus eaque maxime nemo facere? At, facilis!
             </p>
           </div>
-          <div className="px-2"> {/* Adjust spacing inside slider */}
+          <div className="px-2">
             <p className="text-xl text-textColor text-center leading-8">
               <span className="text-white">Amazon company CEO -</span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid doloribus sed asperiores commodi earum consectetur dolorem, eligendi animi minus. Reprehenderit laboriosam ipsa quia dignissimos voluptatum aliquid et repudiandae laborum impedit perferendis quis, sapiente doloribus eaque maxime nemo facere? At, facilis!
             </p>
